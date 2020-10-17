@@ -8,13 +8,23 @@
     
     .postview
         margin: 0.5%
+        margin-right: 0
         height: 98%
         border-radius: 5px
+        border-top-right-radius: 0
+        border-bottom-right-radius: 0
         background: gray
         width: 80%
-        overflow-y: scroll
+        overflow-y: auto
 
     .sidebar
-        height: 100%
+        display: flex
+        flex-flow: column nowrap
+        margin: 0.5%
+        margin-left: 0
+        height: 98%
+        border-radius: 5px
+        border-top-left-radius: 0
+        border-bottom-left-radius: 0
         width: 20%
-        background: pink
+        background-color: darken(gray, 1)

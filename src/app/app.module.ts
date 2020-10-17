@@ -12,11 +12,19 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { LayoutModule } from '@angular/cdk/layout';
 import { HomeComponent } from './home/home.component';
+import { ProfileComponent } from './profile/profile.component';
+import { LoginComponent } from './login/login.component';
+import { PostComponent } from './post/post.component';
+import { HubComponent } from './hub/hub.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    ProfileComponent,
+    LoginComponent,
+    PostComponent,
+    HubComponent,
   ],
   imports: [
     BrowserModule,
