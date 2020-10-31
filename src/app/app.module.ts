@@ -16,6 +16,8 @@ import { ProfileComponent } from './profile/profile.component';
 import { LoginComponent } from './login/login.component';
 import { PostComponent } from './post/post.component';
 import { HubComponent } from './hub/hub.component';
+import { CreatorComponent } from './home/creator/creator.component';
+import { PostcardComponent } from './home/postcard/postcard.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { HubComponent } from './hub/hub.component';
     LoginComponent,
     PostComponent,
     HubComponent,
+    CreatorComponent,
+    PostcardComponent,
   ],
   imports: [
     BrowserModule,
