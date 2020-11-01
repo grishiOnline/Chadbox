@@ -18,6 +18,7 @@ import { PostComponent } from './post/post.component';
 import { HubComponent } from './hub/hub.component';
 import { CreatorComponent } from './home/creator/creator.component';
 import { PostcardComponent } from './home/postcard/postcard.component';
+import { MotdComponent } from './home/motd/motd.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { PostcardComponent } from './home/postcard/postcard.component';
     HubComponent,
     CreatorComponent,
     PostcardComponent,
+    MotdComponent,
   ],
   imports: [
     BrowserModule,
